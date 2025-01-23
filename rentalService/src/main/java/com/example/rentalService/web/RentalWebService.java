@@ -16,7 +16,7 @@ public class RentalWebService {
 
     public RentalWebService(){
         cars.add(new Car("AA11BB", "Ferrari", 1000));
-        cars.add(new Car("BB22CC", "Porsche", 3000));
+        cars.add(new Car("BB22CC", "Porsche", 400));
     }
 
     @GetMapping("/bonjour")
